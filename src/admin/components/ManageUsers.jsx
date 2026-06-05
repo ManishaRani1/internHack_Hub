@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { db } from "../../firebase";
+import { db } from "../../Firebase";
 import { collection, onSnapshot, deleteDoc, doc } from "firebase/firestore";
 
 const ManageUsers = () => {
